@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Юриста</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            padding: 50px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .resume {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .resume h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .resume p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Резюме Юриста</h1>
+        <div class="resume">
+            <h2>Иван Иванов</h2>
+            <p>Опытный юрист с 5-летним стажем работы в области корпоративного права. Специализируюсь на сопровождении сделок, юридическом консультировании и разрешении споров.</p>
+            <p>Образование: Магистр права, Университет им. И.И. Иванова, 2015 год.</p>
+            <p>Ключевые навыки:
+                <ul>
+                    <li>Корпоративное право</li>
+                    <li>Сопровождение сделок</li>
+                    <li>Юридическое консультирование</li>
+                    <li>Арбитражные споры</li>
+                </ul>
+            </p>
+            <p>Контакты: ivanov@example.com | +7 (XXX) XXX-XX-XX</p>
+        </div>
+        <a href="#" class="btn">Связаться со мной</a>
+    </div>
+</body>
+</html>
